@@ -37,7 +37,7 @@ One of the Our project’s purpose is make document search engine easy for every
 Now the more greater goal is getting more and more T2F users!
 
 ## T2F’s Beautiful Points  
-**Accurately and speedy!**  
+**Accurately and speedy!**
 We implement some useful methods.  
 At first, we adopted the option features called by “Dep_n_gram”. If you want, T2F consider dependency analysis’s result as one of features. Here is the example of dep_bi_gram:  
 
