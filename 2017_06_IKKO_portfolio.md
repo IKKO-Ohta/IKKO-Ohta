@@ -32,18 +32,21 @@ Job:
 Text2Feature is a OSS Japanese Document Search Engine.  
 With Morphological Analysis & Dependency Analysis, Text2Feature TF-IDF vectorizes existing documents. And this engine receives a query document, calculates cosine similarity between the input and the vectorized documents, and find one which looks like the query.  
 
+## usage
+csh  
+csh  
+
 ## Purposes & Goals  
-One of the Our project’s purpose is make document search engine easy for everyone to use. And our goal was that *actuary* T2F is adopted by other’s project. Fortunately SHARP CLOUDS LABS’s service “Q&A communication system” did.   
+One of the Our project’s purpose is make document search engine easy for everyone to use. And our goal was that *actuary* T2F was adopted by other’s project. Fortunately SHARP CLOUDS LABS’s service “Q&A communication system” did.   
 Now the more greater goal is getting more and more T2F users!
 
 ## T2F’s Beautiful Points  
 **Accurately and speedy!**  
 We implement some useful methods.  
-At first, we adopted the option features called by “Dep_n_gram”. If you want, T2F consider dependency analysis’s result as one of features. Here is the example of dep_bi_gram:  
-
-input string: “太郎はおにぎりを食べる。”   
+At first, we adopted the option features called by “Dep_n_gram”. If you want, T2F consider dependency analysis’s result as one of features. Here is the example of dep_bi_gram:
+"input string: “太郎はおにぎりを食べる。”   
 features by unigram: [“太郎”,”は”,”おにぎり”,”を”,”食べる”]  
-features by unigram + dep_bi_gram: [“太郎”,”は”、”おにぎり”,”を”,”食べる”,”太郎-は”,”おにぎり-を”,”は-食べる”]  
+features by unigram + dep_bi_gram: [“太郎”,”は”、”おにぎり”,”を”,”食べる”,”太郎-は”,”おにぎり-を”,”は-食べる”]"
 This option can improves the accuracy slightly in the specific area.  
 
 Secondly we implement some manual configuration functions such as “”synonym“, “blacklist” and ”whitelist”. These configuration may look like not smart. However when your available resource is hardly limited, these function can help you to keep your product’s accuracy.  
@@ -52,6 +55,22 @@ Thirdly we succeed building the effective models of morphological analysis & dep
 
 ## T2F’s file structure & flow
 ![FileStructure](https://github.com/IKKO-Ohta/others/blob/master/t2f_structure.png)  
+ -bin/
+  -**Makeindex.csh**: set_up database
+  -**Vectorize.csh**: calculate query doc
+ -auto/
+  save processed-vectors
+ -model/
+  -KyTea model: for morphological analysis
+  -EDA model: for dependency analysis
+ -corpus/
+  -makeindex/ text to calculate
+  -newtext/ preprocessed queries
+  -thesaurus.txt 
+ -lib/
+  librarires to process
+
+Here is T2F's processing flowchart.  
 ![flow](https://github.com/IKKO-Ohta/others/blob/master/vectorize.png)  
 
 

@@ -50,9 +50,9 @@ Secondly we implement some manual configuration functions such as “”synonym�
 
 Thirdly we succeed building the effective models of morphological analysis & dependency analysis. Especially in Dependency analysis, our model is much lighter than naive method. And our model is not only speedy & memory efficient but also accurate.  
 
-## T2F’s file structure & class diagram  
-
-
+## T2F’s file structure & flow
+![FileStructure](https://github.com/IKKO-Ohta/others/blob/master/t2f_structure.png)  
+![flow](https://github.com/IKKO-Ohta/others/blob/master/vectorize.png)  
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
