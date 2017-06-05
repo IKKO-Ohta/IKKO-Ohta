@@ -1,8 +1,21 @@
-1.History
+1.My history
 ===
-## Text2Feature
+
+## Experience
+Language:  
+Python3, Ruby on Rails, C++, csh, Octave
+ - I'm major in natural language processing, so I usually write in Python3 for research.  
+ - Ruby on Rails programing includes HTML/CSS(SCSS,bootstrap), JavaScript, PostgreSQL, PaaS(Heroku)
+
+Work:  
+ - Kyoto University media archive center, Office Assistant(June 2016 ~ March 2017)  
+
+## Products  
+
+### Text2Feature
 Text2Feature is the OSS Japanese document search engine written by Python3.  
-This system is adopted by “Q&A communication system" [SHARP CLOUD LABS](http://qac.cloudlabs.sharp.co.jp/).  
+Text2Feature runs on UNIX.  
+This system is adopted by “Q&A communication system" SHARP CLOUD LABS. http://qac.cloudlabs.sharp.co.jp/  
 GitHub: https://github.com/IKKO-Ohta/Text2Feature  
 
 Job:
@@ -12,9 +25,9 @@ Job:
 release:
  - April 2016	release OSS version 1.0  
 
-## VCS-Mirador
+### VCS-Mirador
 VCS-Mirador is the Web app for humanities research. 
-this app is mainly written by Ruby on Rails.  
+This app is mainly written by Ruby on Rails.  
 Supporting IIIF/International Image Interoperability Framework Json data, this system make them “Documents”. The document has annotations,hypothesis and comments. If you want, document is only shared by authorized group. In addition, this system has some SNS functions.  
 
 α Version was announced in IPSJ 2017.  
@@ -25,54 +38,52 @@ Job:
  - April 2017 ~ 	*Chief engineer*  
 
 
+
+
 2.Text2Feature
 ===
 
-## What is Text2Feature?  
+### What is Text2Feature?  
 Text2Feature is a OSS Japanese Document Search Engine.  
-With Morphological Analysis & Dependency Analysis, Text2Feature TF-IDF vectorizes existing documents. And this engine receives a query document, calculates cosine similarity between the input and the vectorized documents, and find one which looks like the query.  
+With morphological analysis & dependency analysis, Text2Feature TF-IDF vectorizes existing documents. And this engine receives a query document, calculates cosine similarity between the input and the vectorized documents, and find one which looks like the query.   
 
-## usage
-csh  
-csh  
-
-## Purposes & Goals  
+### Purposes & Goals  
 One of the Our project’s purpose is make document search engine easy for everyone to use. And our goal was that *actuary* T2F was adopted by other’s project. Fortunately SHARP CLOUDS LABS’s service “Q&A communication system” did.   
 Now the more greater goal is getting more and more T2F users!
 
-## T2F’s Beautiful Points  
+### T2F’s Beautiful Points  
 **Accurately and speedy!**  
 We implement some useful methods.  
-At first, we adopted the option features called by “Dep_n_gram”. If you want, T2F consider dependency analysis’s result as one of features. Here is the example of dep_bi_gram:
-"input string: “太郎はおにぎりを食べる。”   
-features by unigram: [“太郎”,”は”,”おにぎり”,”を”,”食べる”]  
-features by unigram + dep_bi_gram: [“太郎”,”は”、”おにぎり”,”を”,”食べる”,”太郎-は”,”おにぎり-を”,”は-食べる”]"
+At first, we adopted the option features called by “Dep_n_gram”. If you want, T2F consider dependency analysis’s result as one of features. Here is the example of dep_bi_gram:  
+
+> input string: “太郎はおにぎりを食べる。”   
+> features by unigram: [“太郎”,”は”,”おにぎり”,”を”,”食べる”]  
+> features by unigram + dep_bi_gram: [“太郎”,”は”、”おにぎり”,”を”,”食べる”,”太郎-は”,”おにぎり-を”,”は-食べる”]  
+
 This option can improves the accuracy slightly in the specific area.  
 
 Secondly we implement some manual configuration functions such as “”synonym“, “blacklist” and ”whitelist”. These configuration may look like not smart. However when your available resource is hardly limited, these function can help you to keep your product’s accuracy.  
 
 Thirdly we succeed building the effective models of morphological analysis & dependency analysis. Especially in Dependency analysis, our model is much lighter than naive method. And our model is not only speedy & memory efficient but also accurate.  
 
-## T2F’s file structure & flow
+### T2F’s file structure & flow
 ![FileStructure](https://github.com/IKKO-Ohta/others/blob/master/t2f_structure.png)  
- -bin/
-  -**Makeindex.csh**: set_up database
-  -**Vectorize.csh**: calculate query doc
- -auto/
-  save processed-vectors
- -model/
-  -KyTea model: for morphological analysis
-  -EDA model: for dependency analysis
- -corpus/
-  -makeindex/ text to calculate
-  -newtext/ preprocessed queries
-  -thesaurus.txt 
- -lib/
-  librarires to process
-
-Here is T2F's processing flowchart.  
+ - bin/  
+    - **Makeindex.csh**:	 set_up database  
+    - **Vectorize.csh**:	 calculate query doc  
+ - auto/  
+ - model/  
+    - **KyTea model**:	for morphological analysis  
+    - **EDA model**: 	for dependency analysis  
+ - corpus/  
+    - **makeindex/**:	text to calculate  
+    - **newtext/**: 	preprocessed queries  
+    - **thesaurus.txt**:	     synonym, whitelist, blacklist  
+ - lib/  
 ![flow](https://github.com/IKKO-Ohta/others/blob/master/vectorize.png)  
-
+Here is T2F's processing flowchart.  
+These processing ["preprocess","parse","vectorize"] correspond with ["preprocess.py","parse.py","vectorizer.py"] in the lib/.  
+(The searching is in "bin/Vectorize.py".)  
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
