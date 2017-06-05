@@ -48,7 +48,7 @@ Text2Feature is a OSS Japanese Document Search Engine.
 With morphological analysis & dependency analysis, Text2Feature TF-IDF vectorizes existing documents. And this engine receives a query document, calculates cosine similarity between the input and the vectorized documents, and find one which looks like the query.   
 
 Here is screen shot.
-> ![make_index](https://github.com/IKKO-Ohta/others/blob/master/makeindex_ss.png)
+![make_index](https://github.com/IKKO-Ohta/others/blob/master/makeindex_ss.png)
 ### Purposes & Goals  
 One of the Our project’s purpose is make document search engine easy for everyone to use. And our goal was that *actuary* T2F was adopted by other’s project. Fortunately SHARP CLOUDS LABS’s service “Q&A communication system” did.   
 Now the more greater goal is getting more and more T2F users!
