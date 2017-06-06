@@ -28,7 +28,7 @@ release:
 ### VCS-Mirador
 VCS-Mirador is the Web app for humanities research. 
 This app is mainly written by Ruby on Rails.  
-Supporting IIIF/International Image Interoperability Framework Json data, this system make them “Documents”. The document has annotations,hypothesis and comments. If you want, document is only shared by authorized group. In addition, this system has some SNS functions.  
+Supporting IIIF/International Image Interoperability Framework Json data(http://iiif.io), this system make them “Documents”. The document has annotations,hypothesis and comments. If you want, your document is only shared by authorized group. In addition, this system has some SNS functions.  
 
 α Version was announced in IPSJ 2017.  
 This project is under development!  
