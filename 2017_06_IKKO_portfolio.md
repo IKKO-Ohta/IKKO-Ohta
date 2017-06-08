@@ -92,7 +92,6 @@ Thirdly we builded the effective models of morphological analysis & dependency a
 ![flow](https://github.com/IKKO-Ohta/others/blob/master/vectorize.png)  
 Here is T2F's processing flowchart.  
 These processing ["preprocess","parse","vectorize"] correspond with ["preprocess.py","parse.py","vectorizer.py"] in the lib/.  
-(The searching is in "bin/Vectorize.py".)  
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
