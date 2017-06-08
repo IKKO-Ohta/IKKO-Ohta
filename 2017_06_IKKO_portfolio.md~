@@ -5,7 +5,13 @@
 Language:  
 Python3, Ruby on Rails, C++, csh, Octave
  - I'm major in natural language processing, so I usually write in Python3 for research.  
- - Ruby on Rails programing includes HTML/CSS(SCSS,bootstrap), JavaScript, PostgreSQL, PaaS(Heroku)
+    - especially dependency parsing, one of my research theme  
+ - Experience of Web Developing by Ruby on Rails
+    - includes HTML/CSS(SCSS,bootstrap), JavaScript, PostgreSQL, PaaS(Heroku)
+ - C++ includes knowledge of algolithms & data structures 
+    -  AOJ ALDS course completed (http://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=samayotta)  
+ - experience of developing CLI tools
+ - Machine Learning on Statistics such as regression, classification, PCA and LDA on Python & Octave. 
 
 Work:  
  - Kyoto University media archive center, Office Assistant(June 2016 ~ March 2017)  
@@ -21,24 +27,25 @@ GitHub: https://github.com/IKKO-Ohta/Text2Feature
 Job:
  - June 2016 ~ December	2016 	*engineer*  
  - December 2016 ~ March 2017 	*Chief engineer*  
-
 release:
  - April 2016	release OSS version 1.0  
 
 ### VCS-Mirador
 VCS-Mirador is the Web app for humanities research. 
 This app is mainly written by Ruby on Rails.  
-Supporting IIIF/International Image Interoperability Framework Json data, this system make them “Documents”. The document has annotations,hypothesis and comments. If you want, document is only shared by authorized group. In addition, this system has some SNS functions.  
+Supporting IIIF/International Image Interoperability Framework Json data(http://iiif.io), this system make them “Documents”. The document has annotations,hypothesis and comments. If you want, your document is only shared by authorized group.   
+In addition, this system has some SNS functions.  
 
 α Version was announced in IPSJ 2017.  
 This project is under development!  
 GitHub: https://github.com/IKKO-Ohta/VCS_mirador  
 
+production:
+ - Heroku
+ - PostgreSQL
+
 Job:
  - April 2017 ~ 	*Chief engineer*  
-
-
-
 
 2.Text2Feature
 ===
@@ -68,8 +75,7 @@ Secondly we implement some manual configuration functions such as “”synonym�
 
 Thirdly we succeed building the effective models of morphological analysis & dependency analysis. Especially in Dependency analysis, our model is much lighter than naive method. And our model is not only speedy & memory efficient but also accurate.  
 
-### T2F’s file structure & flow
-![FileStructure](https://github.com/IKKO-Ohta/others/blob/master/t2f_structure.png)  
+### T2F’s file structure & flow ![FileStructure](https://github.com/IKKO-Ohta/others/blob/master/t2f_structure.png)  
  - bin/  
     - **Makeindex.csh**:	 set_up database  
     - **Vectorize.csh**:	 calculate query doc  
