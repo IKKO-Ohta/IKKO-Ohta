@@ -2,17 +2,11 @@
 ===
 
 ## Experience
-Language:  
-Python3, Ruby on Rails, C++, csh, Octave
+### engineering skills:  
+**Python3**, Ruby on Rails, C++, csh, Octave
  - I am major in natural language processing, so I usually write in Python3 for researches.  
-    - especially dependency parsing and Language Modeling 
- - Experience of Web Developing by Ruby on Rails
-    - including HTML/CSS (SCSS,bootstrap), JavaScript, PostgreSQL, PaaS (Heroku)
- - Algolithms & data structures written in C++
-    -  Aizu Online Judge ALDS completed (http://judge.u-aizu.ac.jp/onlinejudge/user.jsp?id=samayotta)  
- - Experience of developing CLI tools
- - Machine Learning on Statistics such as regression, classification, PCA and LDA on Python & Octave. 
-
+ - Machine Learning [Data analysis]
+ - ad
 Work:  
  - Shinsuke Mori laboratory, Kyoto University, Office Assistant (June 2016 ~ March 2017)  
 
@@ -32,7 +26,7 @@ release:
  - April 2016	OSS version 1.0  released
 
 ### VCS-Mirador
-VCS-Mirador is a Web app for humanities research. 
+VCS-Mirador is a Web app for humanities research.
 This app is mainly written by Ruby on Rails.  
 Supporting IIIF/International Image Interoperability Framework(http://iiif.io), this system make them “Documents”. The document has annotations,hypotheses and comments. If you want, your document is only shared by authorized group.   
 In addition, this system has some SNS functions.  
