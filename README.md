@@ -69,6 +69,7 @@ Developing [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature).
 Favorite Writer:  
 Satoshi Hase, Rintaro Norizuki, Haruki Murakami, Ryunosuke Akutagawa  
 I was a member of Kyoto University Science Fiction Assosiation.
+[bookmetor](https://bookmeter.com/users/304053)
 
 #### analog game
 
