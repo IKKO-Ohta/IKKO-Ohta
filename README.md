@@ -20,7 +20,7 @@ Kyoto University.
 2019.3 M.S. in Infomatics Intelligence Science and Technology  
 2017.3 B.E. in Economics
 
-# Work Experience
+# Experience
 
 ## mixi
 
