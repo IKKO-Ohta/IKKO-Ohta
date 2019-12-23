@@ -14,13 +14,13 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
 2019.12 event presentation [scramble tech #1](https://scramble.connpass.com/event/157710/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom).
 
-# Educations
+# Education
 
 Kyoto University.  
 2019.3 M.S. in Infomatics Intelligence Science and Technology  
 2017.3 B.E. in Economics
 
-# Job Experience
+# Work Experience
 
 ## mixi
 
