@@ -16,7 +16,7 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
 # Education
 
-Kyoto University.  
+Kyoto University  
 2019.3 M.S. in Infomatics Intelligence Science and Technology  
 2017.3 B.E. in Economics
 
@@ -66,13 +66,18 @@ Developing [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature).
 
 #### novel
 
-Favorite Writer:  
-Satoshi Hase, Rintaro Norizuki, Haruki Murakami, Ryunosuke Akutagawa  
 I was a member of Kyoto University Science Fiction Assosiation.
+
+Favorite Writers:  
+Satoshi Hase, Rintaro Norizuki, Haruki Murakami and Ryunosuke Akutagawa
+
 [bookmetor](https://bookmeter.com/users/304053)
 
 #### analog game
 
-I'm a trading card game enthusiast. Now playing:  
-Magic: the gathering, weiss schwarz and Pokemon card game.  
+I'm a trading card game enthusiast.
+
+Now playing:  
+Magic: the gathering, weiss schwarz and Pokemon card game.
+
 [my card game blog](https://note.com/samayotta)
