@@ -1,112 +1,96 @@
-1.My history
-===
+# IKKO OHTA
 
-## Experience
-Language:  
-Python3, Ruby on Rails, C++, csh, Octave
- - I'm major in natural language processing, so I usually write in Python3 for research.  
- - Ruby on Rails programing includes HTML/CSS(SCSS,bootstrap), JavaScript, PostgreSQL, PaaS(Heroku)
+Software Engineer  
+Tokyo, Japan
 
-Work:  
- - Kyoto University media archive center, Office Assistant(June 2016 ~ March 2017)  
+## Accounts
 
-## Products  
+Mail: samayotta@gmail.com  
+GitHub: [IKKO-Ohta](https://github.com/IKKO-Ohta)  
+Qiita(only ja): [@samayotta](https://qiita.com/samayotta)  
+SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
-### Text2Feature
-Text2Feature is the OSS Japanese document search engine written by Python3.  
-Text2Feature runs on UNIX.  
-This system is adopted by “Q&A communication system" SHARP CLOUD LABS. http://qac.cloudlabs.sharp.co.jp/  
-GitHub: https://github.com/IKKO-Ohta/Text2Feature  
+## recent activity
 
-Job:
- - June 2016 ~ December	2016	*engineer*  
- - December 2016 ~ March 2017 	*Chief engineer*  
+2019.12 event presentation [scramble tech #1](https://scramble.connpass.com/event/157710/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom).
 
-release:
- - April 2016	release OSS version 1.0  
+# Educations
 
-### VCS-Mirador
-VCS-Mirador is the Web app for humanities research. 
-This app is mainly written by Ruby on Rails.  
-Supporting IIIF/International Image Interoperability Framework Json data(http://iiif.io), this system make them “Documents”. The document has annotations,hypothesis and comments. If you want, your document is only shared by authorized group. In addition, this system has some SNS functions.  
+Kyoto University.  
+2019.3 M.S. in Infomatics Intelligence Science and Technology  
+2017.3 B.E. in Economics
 
-α Version was announced in IPSJ 2017.  
-This project is under development!  
-GitHub: https://github.com/IKKO-Ohta/VCS_mirador  
+# Programing Experiences
 
-Job:
- - April 2017 ~		*Chief engineer*  
+## Front end
 
+I have developped web applications for 2+ years with Vue.js, React, Nuxt.js and Electron. And I love **TypeScript**.
 
+## Machine Learning
 
+I have 2 years experiences about machine learning softwares include
+**natural language processing** or **ad-technology**.
 
-2.Text2Feature
-===
+## Infrastructure
 
-### What is Text2Feature?  
-Text2Feature is a OSS Japanese Document Search Engine.  
-With morphological analysis & dependency analysis, Text2Feature TF-IDF vectorizes existing documents. And this engine receives a query document, calculates cosine similarity between the input and the vectorized documents, and find one which looks like the query.   
+**CircleCI**, **Docker**, AWS
 
-Here is screen shot.
-> ![make_index](https://github.com/IKKO-Ohta/others/blob/master/makeindex_ss.png)
-### Purposes & Goals  
-One of the Our project’s purpose is make document search engine easy for everyone to use. And our goal was that *actuary* T2F was adopted by other’s project. Fortunately SHARP CLOUDS LABS’s service “Q&A communication system” did.   
-Now the more greater goal is getting more and more T2F users!
+## Back end
 
-### T2F’s Beautiful Points  
-**Accurately and speedy!**  
-We implement some useful methods.  
-At first, we adopted the option features called by “Dep_n_gram”. If you want, T2F consider dependency analysis’s result as one of features. Here is the example of dep_bi_gram:  
+Elixir/Phoenix
 
-> input string: “太郎はおにぎりを食べる。”   
-> features by unigram: [“太郎”,”は”,”おにぎり”,”を”,”食べる”]  
-> features by unigram + dep_bi_gram: [“太郎”,”は”、”おにぎり”,”を”,”食べる”,”太郎-は”,”おにぎり-を”,”は-食べる”]  
+# Job Experience
 
-This option can improves the accuracy slightly in the specific area.  
+## mixi
 
-Secondly we implement some manual configuration functions such as “”synonym“, “blacklist” and ”whitelist”. These configuration may look like not smart. However when your available resource is hardly limited, these function can help you to keep your product’s accuracy.  
+2019.4 -  
+Working on developping web application.
 
-Thirdly we succeed building the effective models of morphological analysis & dependency analysis. Especially in Dependency analysis, our model is much lighter than naive method. And our model is not only speedy & memory efficient but also accurate.  
+## Urtica (VCS-Mirador)
 
-### T2F’s file structure & flow
-![FileStructure](https://github.com/IKKO-Ohta/others/blob/master/t2f_structure.png)  
- - bin/  
-    - **Makeindex.csh**:	 set_up database  
-    - **Vectorize.csh**:	  calculate query doc  
- - auto/  
- - model/  
-    - **KyTea model**:	for morphological analysis  
-    - **EDA model**: 	for dependency analysis  
- - corpus/  
-    - **makeindex/**:	text to calculate  
-    - **newtext/**: 	preprocessed queries  
-    - **thesaurus.txt**:	          synonym, whitelist, blacklist  
- - lib/  
-![flow](https://github.com/IKKO-Ohta/others/blob/master/vectorize.png)  
-Here is T2F's processing flowchart.  
-These processing ["preprocess","parse","vectorize"] correspond with ["preprocess.py","parse.py","vectorizer.py"] in the lib/.  
-(The searching is in "bin/Vectorize.py".)  
+2018.1 - 2019.3  
+Planning & Software developping.  
+My project was supported by [Kyoto University SPEC challenge contest](http://www.kikin.kyoto-u.ac.jp/spec/2017/05.html).
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+## mixi
 
+2018.8  
+Machine learning engineering  
+about natural language processing
 
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
+## VOYAGE GROUP
 
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+2017.8 - 2017.9  
+Machine learning engineering  
+about ad-technology
+
+## Media archive center, kyoto university
+
+2016.6 - 2017.5  
+Machine Learning Engineering  
+Developing [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature).
+
+# softwares
+
+- spread
+
+  under developing!
+
+- [Urtica](http://www.kikin.kyoto-u.ac.jp/spec/2017/05.html)
+- [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature)
+
+---
+
+### Hobby
+
+#### novel
+
+Favorite Writer:  
+Satoshi Hase, Rintaro Norizuki, Haruki Murakami, Ryunosuke Akutagawa  
+I was a member of Kyoto University Science Fiction Assosiation.
+
+#### analog game
+
+I'm a trading card game enthusiast. Now playing:  
+Magic: the gathering, weiss schwarz and Pokemon card game.  
+[my card game blog](https://note.com/samayotta)
