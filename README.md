@@ -60,21 +60,6 @@ Developing [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature).
 - [Urtica](http://www.kikin.kyoto-u.ac.jp/spec/2017/05.html)
 - [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature)
 
-# Programing Experiences
-
-- Front end  
-  I have developped web applications for 2+ years with Vue.js, React, Nuxt.js and Electron. And I love **TypeScript**.
-
-- Machine Learning  
-  I have 2 years experiences about machine learning softwares include
-  **natural language processing** or **ad-technology**.
-
-- Infrastructure  
-  **CircleCI**, **Docker**, AWS
-
-- Back end  
-  Elixir/Phoenix
-
 ---
 
 ### Hobby
