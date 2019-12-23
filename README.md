@@ -25,30 +25,31 @@ Kyoto University
 ## mixi
 
 2019.4 -  
-Working on developping web application.
+Software engineer.  
+Working on web applications development.
 
 ## Urtica (VCS-Mirador)
 
 2018.1 - 2019.3  
-Planning & Software developping.  
+Planning & software developing.  
 My project was supported by [Kyoto University SPEC challenge contest](http://www.kikin.kyoto-u.ac.jp/spec/2017/05.html).
 
 ## mixi
 
 2018.8  
-Machine learning engineering  
+Machine learning engineer  
 about natural language processing
 
 ## VOYAGE GROUP
 
 2017.8 - 2017.9  
-Machine learning engineering  
+Machine learning engineer  
 about ad-technology
 
 ## Media archive center, kyoto university
 
 2016.6 - 2017.5  
-Machine Learning Engineering  
+Machine Learning Engineer  
 Developing [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature).
 
 # softwares
