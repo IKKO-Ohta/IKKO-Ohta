@@ -12,7 +12,10 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
 ## recent activity
 
-2019.12 event presentation [scramble tech #1](https://scramble.connpass.com/event/157710/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom).
+- 2020.02 release [spread](https://github.com/IKKO-Ohta/spread)
+  - hosting URL: https://spread-samayotta.com/
+
+- 2019.12 event presentation [scramble tech #1](https://scramble.connpass.com/event/157710/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom).
 
 # Education
 
@@ -27,6 +30,12 @@ Kyoto University
 2019.4 -  
 Software engineer.  
 Working on web applications development.
+Developing [UNLIM](https://unlim.team/)
+
+## spread
+2019.12 -
+Planning & developing
+https://github.com/IKKO-Ohta/spread
 
 ## Urtica (VCS-Mirador)
 
@@ -49,17 +58,14 @@ about ad-technology
 ## Media archive center, kyoto university
 
 2016.6 - 2017.5  
-Machine Learning Engineer  
+Machine learning engineer  
 Developing [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature).
 
 # softwares
 
-- spread
-
-  under developing!
-
+- [spread](https://github.com/IKKO-Ohta/spread)
 - [Urtica](http://www.kikin.kyoto-u.ac.jp/spec/2017/05.html)
-- [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature)
+- [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature) 
 
 ---
 
@@ -79,6 +85,6 @@ Satoshi Hase, Rintaro Norizuki, Haruki Murakami and Ryunosuke Akutagawa
 I'm a trading card game enthusiast.
 
 Now playing:  
-Magic: the gathering, weiss schwarz and Pokemon card game.
+Magic the Gathering, Weiss Schwarz and Pokemon card game.
 
 [my card game blog](https://note.com/samayotta)
