@@ -20,8 +20,8 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 # Education
 
 Kyoto University  
-2019.3 M.S. in Infomatics Intelligence Science and Technology  
-2017.3 B.E. in Economics
+- 2019.03 M.S. in Infomatics Intelligence Science and Technology  
+- 2017.03 B.E. in Economics
 
 # Experience
 
@@ -29,13 +29,13 @@ Kyoto University
 
 2019.4 -  
 Software engineer.  
-Working on web applications development.
+Working on web applications development.  
 Developing [UNLIM](https://unlim.team/)
 
 ## spread
-2019.12 -
-Planning & developing
-https://github.com/IKKO-Ohta/spread
+2019.12 -  
+Planning & developing  
+see https://github.com/IKKO-Ohta/spread
 
 ## Urtica (VCS-Mirador)
 
