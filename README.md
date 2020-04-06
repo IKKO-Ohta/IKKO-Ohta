@@ -1,91 +1,95 @@
-# IKKO OHTA
+## 太田 一行 [@samayotta]
+[en](./enREADME.md)
 
-Software Engineer  
-Tokyo, Japan
+東京のソフトウェアエンジニアです。 
 
-## Accounts
+- **私がTwitterで発言する内容は全て私(@samayotta)の意見であり、所属する組織の見解ではありません。**
+
+
+
+## アカウント
 
 Mail: samayotta@gmail.com  
 GitHub: [IKKO-Ohta](https://github.com/IKKO-Ohta)  
 Qiita(only ja): [@samayotta](https://qiita.com/samayotta)  
 SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
-## recent activity
+## 最近の活動
 
-- 2020.02 release [spread](https://github.com/IKKO-Ohta/spread)
+- 2020.02 [spread](https://github.com/IKKO-Ohta/spread) をリリースしました。
   - hosting URL: https://spread-samayotta.com/
-  - Document: https://speakerdeck.com/mixi_engineers/mixi-tech-note-number-03?slide=28
+  - 技術書展: https://speakerdeck.com/mixi_engineers/mixi-tech-note-number-03?slide=28
 
-- 2019.12 event presentation [scramble tech #1](https://scramble.connpass.com/event/157710/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom).
+- 2019.12 登壇発表しました。[scramble tech #1](https://scramble.connpass.com/event/157710/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom)　*Nuxt.js SSRにおけるE2Eテストの実装*
 
-# Education
+## 学歴
 
-Kyoto University  
-- 2019.03 M.S. in Infomatics Intelligence Science and Technology  
-- 2017.03 B.E. in Economics
+- 2017.03 京都大学 経済学部 卒業 (学士)
+- 2019.03 京都大学大学院 情報学研究科 知能情報学 博士前期課修了 (修士)
 
-# Experience
+## スキル
 
-## mixi
+### Webアプリケーション開発
 
-2019.4 -  
-Software engineer.  
-Working on web applications development.  
-Developing [UNLIM](https://unlim.team/)
+２年以上のWebアプリケーション開発の経験があります。
 
-## spread
-2019.12 -  
-Planning & developing  
-see https://github.com/IKKO-Ohta/spread
+もっとも得意な分野はTypeScriptを用いたWebアプリケーションのフロントエンドです。React.jsおよびVue.jsの両方で開発経験がありますが、より経験が長いのはVue.jsです。
+ 
+ - 大前提として、[独立して、妥当にアプリケーションを作成することができます](https://github.com/IKKO-Ohta/spread)。型安全の意義を十分理解しており、デコレータライブラリやIDLを組み合わせて、クライアント全体、プロジェクト全体の堅牢性を意識しながら開発していくことができます。
+ 
+ - ユーザ体験の改善は高速化から始まります。画像の圧縮やwebpackの上手な利用、キャッシュ戦略やサーバサイドレンダリングなど、ハイパフォーマンスなフロントエンド開発のために必要な知識を持っていて、利用したり議論に参加したりすることができます。また、S3/EC2/CloudFrontなどのサービスを利用して、アプリケーションの効率的な配信方法を提案し実装できます。
 
-## Urtica (VCS-Mirador)
+ - CI/CD, Dockerによる業務フローの改善も得意なジャンルです。場合によってはE2EテストをCIで実行するような、大掛かりな自動化も実装できます。
+ 
+ - Git/GitHubについて業務上不便なく使えるまで習熟しています。読みやすいPR作成を心がけるとともに、同僚のコードレビューに頻繁に参加します。GitHubフローに適応でき、自分からその体制を構築することもできます。GitHub上のOSSにfix PRを送ったこともあり、コミュニティ活動を問題なく行えます。
 
-2018.1 - 2019.3  
-Planning & software developing.  
-My project was supported by [Kyoto University SPEC challenge contest](http://www.kikin.kyoto-u.ac.jp/spec/2017/05.html).
+### 機械学習プロダクトの開発
 
-## mixi
+自然言語処理を専門として修士号を得ています。また、アルバイト・インターンとして合計１年以上の業務経験があります。機械学習を企業の実課題に適用しソフトウェアに落とし込むことに興味があります。
 
-2018.8  
-Machine learning engineer  
-about natural language processing
+- 係り受け解析(Dependency Parsing)の開発 / 研究を行っていました。[チームでこれを利用した検索エンジンを開発](https://github.com/IKKO-Ohta/Text2Feature)し、実際のプロダクトに納入しました。
+ 
+- アド テクノロジーの分野でbiddingアルゴリズムの開発に協力しました。必要に応じてSQLクエリを書いたり、前処理を行ったりして、学習に必要なデータを自ら作成できます。
 
-## VOYAGE GROUP
+- 自然言語処理では、違反投稿検知を行うモデルを作成して人力でのチェックを大幅に減らすなどの貢献をしました。ビジネス課題に応じてRecallを重視するなどチューニングを行いながら、汎化性能に注意してモデリングできます。
 
-2017.8 - 2017.9  
-Machine learning engineer  
-about ad-technology
 
-## Media archive center, kyoto university
+### その他のスキル
 
-2016.6 - 2017.5  
-Machine learning engineer  
-Developing [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature).
+- 変化の激しいプログラミングの世界で、ライブラリの公式ドキュメントやissueをすばやく理解する能力は重要です。上記に記した得意分野について、必要な英文ドキュメントを正しく理解して人に説明できます。
 
-# softwares
+- サーバサイドの開発について経験が浅いですが、Rails系のMVPフレームワークには多少経験がありコードレビューに参加したり一部機能を追加したりといった程度の貢献が可能です。
 
-- [spread](https://github.com/IKKO-Ohta/spread)
-- [Urtica](http://www.kikin.kyoto-u.ac.jp/spec/2017/05.html)
-- [Text2Feature](https://github.com/IKKO-Ohta/Text2Feature) 
+## 職歴
 
----
+### 現職　株式会社ミクシィ 
 
-### Hobby
+2019年４月に新卒入社しました。**スポーツギフティングサービス UNLIM** の開発をしています。UNLIMについては[公式サイト](https://unlim.team/)をご覧ください。
 
-#### novel
 
-I was a member of Kyoto University Science Fiction Assosiation.
+### アルバイト・インターン先
 
-Favorite Writers:  
-Satoshi Hase, Rintaro Norizuki, Haruki Murakami and Ryunosuke Akutagawa
+- 京都大学メディアアーカイブセンター
+- 株式会社VOYAGE GROUP
+- 株式会社ミクシィ
 
-[bookmetor](https://bookmeter.com/users/304053)
+等
+### その他特記すべき仕事
 
-#### analog game
+私の大学院生時代のサイドプロジェクトとして、人文学研究者を支援するソフトウェア開発を行っていました。このプロジェクトは[京都大学 SPEC チャレンジコンテスト](http://www.kikin.kyoto-u.ac.jp/spec/2017/05.html) に採択され、支援のもと取り組んでいました。
 
-I'm a trading card game enthusiast.
+## 趣味
 
-Now playing:  
-Magic the Gathering, Weiss Schwarz and Pokemon card game.
+### 読書
 
-[my card game blog](https://note.com/samayotta)
+京都大学SF幻想文学研究会に所属していました。
+
+好きな小説家は長谷敏司、法月倫太郎、村上春樹、芥川龍之介です。またギリシア・ローマの古典文学・思想に夢中になった時期があり、プラトンやストア派の著作が好きです。
+
+[読書メーター](https://bookmeter.com/users/304053)
+
+### トレーディングカードゲーム
+
+小学生のころから熱狂的なTCGのファンです。国産TCGはほとんどプレイした経験があります。好きなカードゲームはMagic: the Gathering、ヴァイスシュヴァルツ、ポケモンカードゲームです。
+
+[カードゲームブログ](https://note.com/samayotta)
