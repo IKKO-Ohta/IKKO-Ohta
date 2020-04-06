@@ -14,6 +14,7 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
 - 2020.02 release [spread](https://github.com/IKKO-Ohta/spread)
   - hosting URL: https://spread-samayotta.com/
+  - Document: https://speakerdeck.com/mixi_engineers/mixi-tech-note-number-03?slide=28
 
 - 2019.12 event presentation [scramble tech #1](https://scramble.connpass.com/event/157710/?utm_campaign=recent_events&utm_source=feed&utm_medium=atom).
 
