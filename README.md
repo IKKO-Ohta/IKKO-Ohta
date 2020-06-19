@@ -113,6 +113,6 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
 ### トレーディングカードゲーム
 
-小学生のころから熱狂的なTCGのファンです。国産TCGはほとんどプレイした経験があります。好きなカードゲームはMagic: The Gathering、ヴァイスシュヴァルツ、ポケモンカードゲームです。
+小学生のころから熱狂的なTCGのファンです。国産TCGはほとんどプレイした経験があります。好きなカードゲームはMagic: The Gathering、ヴァイスシュヴァルツ、ポケモンカードゲームです。[spread](https://github.com/IKKO-Ohta/spread) を実際に使ってもらえるのが最近は嬉しいです。
 
 [カードゲームブログ](https://note.com/samayotta)
