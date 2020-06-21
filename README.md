@@ -116,7 +116,7 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
 - 友人の研究者とチームを組んで行いました。営業をしたり、顧客調査をしたり、事業計画書を書いたり、といった経験もでき、実りの多い時間だったと思っています。 自分たちでプロダクトを作っていくという意識が涵養されたと思います。
 
-<details>
+</details>
 
 ## 趣味・関心等
 
