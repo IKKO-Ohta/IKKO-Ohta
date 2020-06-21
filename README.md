@@ -35,6 +35,7 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 <details>
 
 <summary>詳細</summary>
+
 ### 主たるもの
  - 大前提として、Nuxt.jsにTypeScriptを加え、Webアプリケーションを妥当に作成できます。型安全の意義をよく理解しており、デコレーターライブラリやIDLとの連携なども利用し、クライアント全体、プロジェクト全体での堅牢性を意識しながら実装を素早く進められます。 
  
@@ -74,6 +75,7 @@ SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
 <details>
 <summary>詳細</summary>
+
 - 係り受け解析(Dependency Parsing)の開発 / 研究を行っていました。[チームでこれを利用した検索エンジンを開発](https://github.com/IKKO-Ohta/Text2Feature)し、実際のプロダクトに納入しました。
  
 - アド テクノロジーの分野では、Real-Time BiddingにDSP側として関わり、入札額を決定するアルゴリズムを開発していました。開発の過程では、必要に応じてSQLクエリを書いたり、前処理を行ったりして、学習に必要なデータを自ら作成できます。
