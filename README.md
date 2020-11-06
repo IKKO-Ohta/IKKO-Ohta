@@ -1,16 +1,7 @@
 ## 太田 一行 [@samayotta]
-[en](./enREADME.md)
-
 東京のソフトウェアエンジニアです。 
 
 - **私が発信する内容は全て私の意見であり、所属する組織の見解ではありません。**
-
-## アカウント
-
-Mail: samayotta@gmail.com  
-GitHub: [IKKO-Ohta](https://github.com/IKKO-Ohta)  
-Qiita(only ja): [@samayotta](https://qiita.com/samayotta)  
-SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
 
 ## ソフトウェアエンジニアとして
 web開発とデータサイエンスの両方に関心があり、両者を調和したプロダクト開発を理想として活動しています。
@@ -29,6 +20,15 @@ web開発とデータサイエンスの両方に関心があり、両者を調�
 - 2019.03 京都大学大学院 情報学研究科 知能情報学専攻 卒
 - 2019.04 株式会社ミクシィ
 - 2020.10 LUCHE GROUP
+
+## アカウント
+
+<details>
+Mail: samayotta@gmail.com  
+GitHub: [IKKO-Ohta](https://github.com/IKKO-Ohta)  
+Qiita(only ja): [@samayotta](https://qiita.com/samayotta)  
+SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
+</details>
 
 ## 趣味・関心等
 
