@@ -21,17 +21,6 @@ web開発とデータサイエンスの両方に関心があり、両者を調�
 - 2019.04 株式会社ミクシィ
 - 2020.10 LUCHE GROUP
 
-## アカウント
-
-<details>
-
-Mail: samayotta@gmail.com  
-GitHub: [IKKO-Ohta](https://github.com/IKKO-Ohta)  
-Qiita(only ja): [@samayotta](https://qiita.com/samayotta)  
-SpeakerDeck(only ja): [@samayotta](https://speakerdeck.com/samayotta)
-
-</details>
-
 ## 趣味・関心等
 
 <details>
