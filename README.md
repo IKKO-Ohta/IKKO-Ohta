@@ -9,7 +9,7 @@
   - English: medium [Retrieve keywords fuzzily from Japanese user search queries with Smith-Waterman algorithm](https://samayotta.medium.com/retrieve-keywords-fuzzily-from-japanese-user-search-queries-with-smith-waterman-algorithm-1bb199c8f0a1), self-translation
   - ホットエントリ入りありがとうございました！  
 
-- 2022.03 TOEFL 90
+- 2022.03 TOEFL 90 (23-23-22-22) 取得
 
 - 2020.02 [spread](https://github.com/IKKO-Ohta/spread) をリリースしました。
   - hosting URL: https://spread-samayotta.com/
