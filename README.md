@@ -6,7 +6,7 @@
 ## 最近の活動
 
 - 2022.12 [検索クエリからファジーにキーワードを抽出する（スミス・ウォーターマン法による実装）](https://inside.luchegroup.com/entry/2022/12/15/135713) を投稿しました。
-  - en: medium [Retrieve keywords fuzzily from Japanese user search queries with Smith-Waterman algorithm](https://samayotta.medium.com/retrieve-keywords-fuzzily-from-japanese-user-search-queries-with-smith-waterman-algorithm-1bb199c8f0a1)
+  - English: medium [Retrieve keywords fuzzily from Japanese user search queries with Smith-Waterman algorithm](https://samayotta.medium.com/retrieve-keywords-fuzzily-from-japanese-user-search-queries-with-smith-waterman-algorithm-1bb199c8f0a1), self-translation
   - ホットエントリ入りありがとうございました！  
 
 - 2020.02 [spread](https://github.com/IKKO-Ohta/spread) をリリースしました。
