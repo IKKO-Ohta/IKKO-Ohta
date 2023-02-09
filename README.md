@@ -5,11 +5,11 @@
 
 ## 最近の活動
 
+- 2023.02 TOEFL MyBest 28-24-22-22 96 英語でCEFR C1を達成しました。
+
 - 2022.12 [検索クエリからファジーにキーワードを抽出する（スミス・ウォーターマン法による実装）](https://inside.luchegroup.com/entry/2022/12/15/135713) を投稿しました。
   - English: medium [Retrieve keywords fuzzily from Japanese user search queries with Smith-Waterman algorithm](https://samayotta.medium.com/retrieve-keywords-fuzzily-from-japanese-user-search-queries-with-smith-waterman-algorithm-1bb199c8f0a1), self-translation
   - ホットエントリ入りありがとうございました！  
-
-- 2022.03 TOEFL 90 (23-23-22-22) 取得
 
 - 2020.02 [spread](https://github.com/IKKO-Ohta/spread) をリリースしました。
   - hosting URL: https://spread-samayotta.com/
@@ -29,9 +29,7 @@
 
 <summary>見る</summary>
 
-### 語学
-
-TOEFLチャレンジ：目標100点
+### 英語
 
 |            	| R  	| L  	| S  	| W  	| sum 	|
 |------------	|----	|----	|----	|----	|-----	|
@@ -40,6 +38,8 @@ TOEFLチャレンジ：目標100点
 | 2021/08/28 	| 26 	| 21  	|  18  	|  18  	|   83  	|
 | 2021/12/28 	| 23 	| 21  	|  18  	|  17  	|   79  	|
 | 2022/04/09 	| 23 	| 23  	|  22  	|  22  	|   90  	|
+| 2023/02/04 	| 28 	| 24  	|  19  	|  22  	|   93  	|
+| MyBest 	| 28 	| 24  	|  22  	|  22  	|   96  	|
 
 
 
